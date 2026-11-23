@@ -1,0 +1,20 @@
+{
+	"name": "iot-lab-2",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node-red --userDir . --settings settings.js Laba2_Козинець_3.json",
+		"format": "prettier --write *.json *.js README.md",
+		"format:check": "prettier --check *.json *.js README.md"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"dependencies": {
+		"node-red": "4.1.7",
+		"node-red-dashboard": "3.6.6"
+	},
+	"devDependencies": {
+		"prettier": "3.9.10"
+	}
+}

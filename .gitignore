@@ -1,0 +1,6 @@
+node_modules/
+.config.*
+.flows*.backup
+Laba2_Козинець_3_cred.json
+context/
+npm-debug.log*
